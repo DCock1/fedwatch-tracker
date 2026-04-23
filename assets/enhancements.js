@@ -6,22 +6,8 @@
 (function() {
   'use strict';
 
-  // Previous update data (April 10, 2026)
+  // Previous update data (April 20, 2026)
   const PREV_UPDATE = {
-    date: '2026-04-10',
-    meetings: {
-      '2026-04-29': { ease: 0, hold: 97.9, hike: 2.1 },
-      '2026-06-17': { ease: 0, hold: 97.4, hike: 2.6 },
-      '2026-07-29': { ease: 4.3, hold: 93.2, hike: 2.4 },
-      '2026-09-16': { ease: 7.8, hold: 89.9, hike: 2.4 },
-      '2026-10-28': { ease: 11.3, hold: 86.8, hike: 1.9 },
-      '2026-12-09': { ease: 22.8, hold: 75.6, hike: 1.6 },
-      '2027-01-27': { ease: 26.4, hold: 72.1, hike: 1.6 }
-    }
-  };
-
-  // Current update data (April 20, 2026)
-  const CURR_UPDATE = {
     date: '2026-04-20',
     meetings: {
       '2026-04-29': { ease: 0, hold: 99.5, hike: 0.5 },
@@ -31,6 +17,20 @@
       '2026-10-28': { ease: 30.8, hold: 68.8, hike: 0.4 },
       '2026-12-09': { ease: 36.2, hold: 63.4, hike: 0.4 },
       '2027-01-27': { ease: 39.3, hold: 60.3, hike: 0.4 }
+    }
+  };
+
+  // Current update data (April 23, 2026)
+  const CURR_UPDATE = {
+    date: '2026-04-23',
+    meetings: {
+      '2026-04-29': { ease: 0, hold: 99.5, hike: 0.5 },
+      '2026-06-17': { ease: 1.2, hold: 98.8, hike: 0 },
+      '2026-07-29': { ease: 5.5, hold: 94.5, hike: 0 },
+      '2026-09-16': { ease: 11.3, hold: 88.7, hike: 0 },
+      '2026-10-28': { ease: 18.5, hold: 81.5, hike: 0 },
+      '2026-12-09': { ease: 25.8, hold: 74.2, hike: 0 },
+      '2027-01-27': { ease: 30.5, hold: 69.5, hike: 0 }
     }
   };
 
