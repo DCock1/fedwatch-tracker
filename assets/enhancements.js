@@ -6,21 +6,8 @@
 (function() {
   'use strict';
 
-  // Previous update data (April 24, 2026)
+  // Previous update data (April 29, 2026 - post-FOMC)
   const PREV_UPDATE = {
-    date: '2026-04-24',
-    meetings: {
-      '2026-06-17': { ease: 4.9, hold: 95.1, hike: 0 },
-      '2026-07-29': { ease: 13.5, hold: 86.5, hike: 0 },
-      '2026-09-16': { ease: 26.8, hold: 73.2, hike: 0 },
-      '2026-10-28': { ease: 38.5, hold: 61.5, hike: 0 },
-      '2026-12-09': { ease: 48.0, hold: 52.0, hike: 0 },
-      '2027-01-27': { ease: 54.5, hold: 45.5, hike: 0 }
-    }
-  };
-
-  // Current update data (April 29, 2026 - post-FOMC)
-  const CURR_UPDATE = {
     date: '2026-04-29',
     meetings: {
       '2026-06-17': { ease: 1.4, hold: 98.6, hike: 0 },
@@ -29,6 +16,19 @@
       '2026-10-28': { ease: 5.6, hold: 90.2, hike: 4.2 },
       '2026-12-09': { ease: 8.0, hold: 87.0, hike: 5.0 },
       '2027-01-27': { ease: 10.5, hold: 84.0, hike: 5.5 }
+    }
+  };
+
+  // Current update data (May 1, 2026)
+  const CURR_UPDATE = {
+    date: '2026-05-01',
+    meetings: {
+      '2026-06-17': { ease: 7.2, hold: 92.8, hike: 0 },
+      '2026-07-29': { ease: 11.5, hold: 88.5, hike: 0 },
+      '2026-09-16': { ease: 15.8, hold: 84.2, hike: 0 },
+      '2026-10-28': { ease: 12.5, hold: 87.5, hike: 0 },
+      '2026-12-09': { ease: 15.0, hold: 83.0, hike: 2.0 },
+      '2027-01-27': { ease: 18.0, hold: 79.5, hike: 2.5 }
     }
   };
 
