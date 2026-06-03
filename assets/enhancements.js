@@ -6,21 +6,8 @@
 (function() {
   'use strict';
 
-  // Previous update data (May 22, 2026 - massive hawkish acceleration)
+  // Previous update data (May 29, 2026 - dovish correction)
   const PREV_UPDATE = {
-    date: '2026-05-22',
-    meetings: {
-      '2026-06-17': { ease: 0, hold: 98.5, hike: 1.5 },
-      '2026-07-29': { ease: 0, hold: 82.5, hike: 17.5 },
-      '2026-09-16': { ease: 0, hold: 55.4, hike: 44.6 },
-      '2026-10-28': { ease: 0, hold: 35.5, hike: 64.5 },
-      '2026-12-09': { ease: 0, hold: 22.0, hike: 78.0 },
-      '2027-01-27': { ease: 0, hold: 15.0, hike: 85.0 }
-    }
-  };
-
-  // Current update data (May 29, 2026 - dovish correction)
-  const CURR_UPDATE = {
     date: '2026-05-29',
     meetings: {
       '2026-06-17': { ease: 0, hold: 98.8, hike: 1.2 },
@@ -29,6 +16,19 @@
       '2026-10-28': { ease: 0, hold: 70.5, hike: 29.5 },
       '2026-12-09': { ease: 0, hold: 60.0, hike: 40.0 },
       '2027-01-27': { ease: 0, hold: 52.0, hike: 48.0 }
+    }
+  };
+
+  // Current update data (June 3, 2026 - hawkish drift returns)
+  const CURR_UPDATE = {
+    date: '2026-06-03',
+    meetings: {
+      '2026-06-17': { ease: 1.6, hold: 98.4, hike: 0 },
+      '2026-07-29': { ease: 0, hold: 93.0, hike: 7.0 },
+      '2026-09-16': { ease: 0, hold: 72.7, hike: 27.3 },
+      '2026-10-28': { ease: 0, hold: 55.0, hike: 45.0 },
+      '2026-12-09': { ease: 0, hold: 45.0, hike: 55.0 },
+      '2027-01-27': { ease: 0, hold: 37.0, hike: 63.0 }
     }
   };
 
