@@ -6,25 +6,25 @@
 (function() {
   'use strict';
 
-  // Previous update data (June 19, 2026 - MASSIVE hawkish shock post-FOMC)
+  // Previous update data (June 24, 2026 - dovish correction)
   const PREV_UPDATE = {
-    date: '2026-06-19',
+    date: '2026-06-24',
     meetings: {
-      '2026-07-29': { ease: 0, hold: 61.5, hike: 38.5 },
-      '2026-09-16': { ease: 0, hold: 4.2, hike: 95.8 },
+      '2026-07-29': { ease: 0, hold: 65.8, hike: 34.2 },
+      '2026-09-16': { ease: 0, hold: 16.2, hike: 83.8 },
       '2026-10-28': { ease: 0, hold: 0, hike: 100.0 },
       '2026-12-09': { ease: 0, hold: 0, hike: 100.0 },
       '2027-01-27': { ease: 0, hold: 0, hike: 100.0 }
     }
   };
 
-  // Current update data (June 24, 2026 - dovish correction)
+  // Current update data (June 26, 2026 - continued dovish drift)
   const CURR_UPDATE = {
-    date: '2026-06-24',
+    date: '2026-06-26',
     meetings: {
-      '2026-07-29': { ease: 0, hold: 65.8, hike: 34.2 },
-      '2026-09-16': { ease: 0, hold: 16.2, hike: 83.8 },
-      '2026-10-28': { ease: 0, hold: 0, hike: 100.0 },
+      '2026-07-29': { ease: 0, hold: 70.1, hike: 29.9 },
+      '2026-09-16': { ease: 0, hold: 28.0, hike: 72.0 },
+      '2026-10-28': { ease: 0, hold: 8.1, hike: 91.9 },
       '2026-12-09': { ease: 0, hold: 0, hike: 100.0 },
       '2027-01-27': { ease: 0, hold: 0, hike: 100.0 }
     }
