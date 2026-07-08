@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fedwatch-v2';
+const CACHE_NAME = 'fedwatch-v3-20260708';
 const STATIC_ASSETS = ['/'];
 
 self.addEventListener('install', (event) => {
